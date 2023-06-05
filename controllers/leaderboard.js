@@ -27,7 +27,7 @@ const getAllScores = async (req,res)=>{
     } catch (error) {
         console.log("catch")
         res.status(500).json({
-            error
+            msg:error
         })
     }
 }
